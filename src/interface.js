@@ -11,7 +11,7 @@ export const postRobot = _postRobot;
 export { ZalgoPromise as Promise } from 'zalgo-promise/src';
 export { PopupOpenError } from 'xcomponent/src';
 
-export { rest } from './api';
+export { rest, risk } from './api';
 export { Button, allowIframe as forceIframe, allowIframe as isWebView, allowIframe } from './components';
 export { setup } from './setup';
 export { config, ENV, USERS, SOURCE, FUNDING, CARD } from './config';
